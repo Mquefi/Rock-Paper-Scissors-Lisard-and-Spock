@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Hidden Game</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="titleGame">
+            <h1 class="title">Rocha, Papel, Tesoura, Lagarto, Spock</h1>
+            <h3 class="description">Sam Kass é um pioneiro da internet e blogueiro, e ele inventou o jogo Rock, Papel, Tesoura, Lagarto, Spock.<br><br>
+
+                Em "The Rothman Disintegration" (S05E17), ao apresentar o jogo a Kripke, Sheldon diz: "Todos saúdam Sam Kass!" Segue-se um "Hail" do resto da turma.<br><br>
+                
+                Como funciona é: Tesoura corta papel, papel cobre rocha, rocha esmaga lagarto, lagarto envenena Spock, Spock quebra tesoura, tesoura decapita lagarto, lagarto come papel, papel desmente Spock, Spock vaporiza rocha e, como sempre fez, rocha esmaga tesoura."</h3>
+        </div>
+        <div class="playGame">
+            <button class="btn_decision" onclick="startGame('pedra')">
+                Pedra
+            </button>
+            <button class="btn_decision" onclick="startGame('papel')">
+                Papel
+            </button>
+            <button class="btn_decision" onclick="startGame('tesoura')">
+                Tesoura
+            </button>
+            <button class="btn_decision" onclick="startGame('lagarto')">
+                Lagarto
+            </button>
+            <button class="btn_decision" onclick="startGame('spock')">
+                Spock
+            </button>
+            <button class="btn_decision" onclick="reiniciarJogo()">
+                Reiniciar Jogo
+            </button>
+        </div>
+        <div>
+            <h4 class="result">
+
+            </h4>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
